@@ -11,7 +11,10 @@ import re
 # string= string[0:8]
 # print(string)
 
-txt = " The most important thing is programming "
 
-x = re.findall("he", txt)
-x = re.findall( 'mo', txt)
+# use pip to intall pip
+
+import pyjokes
+
+print(pyjokes.get_jokes('en', 'neutral'))
+print(pyjokes.get_jokes('en', 'neutral'))
